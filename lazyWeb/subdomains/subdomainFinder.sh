@@ -6,4 +6,4 @@ echo "Enter domain (FUZZ.domain.com): "
 
 read TARGET
 
-sudo ffuf -u "https://$TARGET" -w $DOMAINS -t 50
+sudo ffuf -u "$TARGET" -w $DOMAINS -t 50

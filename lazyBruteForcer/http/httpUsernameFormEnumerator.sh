@@ -1,5 +1,7 @@
 #!/bin/sh
 
+#MAKE A PART THAT ADDS A PREFIX OR SUFFIX
+
 UNAME="/usr/share/seclists/Usernames/xato-net-10-million-usernames.txt"
 
 echo "ENTER IP: "
